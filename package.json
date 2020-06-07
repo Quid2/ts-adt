@@ -1,0 +1,16 @@
+{
+  "name": "@quid2/adt",
+  "version": "0.0.1",
+  "description": "ZM ADT definitions ",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm **/*.js **/*.map **/*.d.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pasqualino Titto Assini <tittoassini@gmail.com> (http://quid2.org)",
+  "license": "ISC",
+  "dependencies": {
+    "@quid2/prim": "git+https://github.com/Quid2/ts-core.git"
+  }
+}
